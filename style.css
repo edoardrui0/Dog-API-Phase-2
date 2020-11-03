@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin-bottom: 35px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.results {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  display: flex;
+}
+
+img {
+  margin: 15px;
+  height: 350px;
+  width: 350px;
+}
